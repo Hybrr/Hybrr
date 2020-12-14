@@ -1,8 +1,5 @@
-.App {
+.h1 {
   text-align: center;
-}
-h1 {
-  font-family: "Langar";
-  font-size: 62px;
-  color: #0ccac4;
+  font-family: Langar;
+  font-size: 42px;
 }
