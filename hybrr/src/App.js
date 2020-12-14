@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+import Service from './component/service/service.component';
 import HomePage from './pages/homepage/homepage.component';
 
 import './App.css';
@@ -8,7 +8,7 @@ import './App.css';
 function App() {
   return (
     <div className='App'>
-      <h1>Our Services</h1>
+      <Service />
       <HomePage />
     </div>
 
