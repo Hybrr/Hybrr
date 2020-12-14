@@ -1,7 +1,10 @@
-.content {
+.title {
   width: 85vw;
-  margin: 0 auto;
+  margin: auto;
+  font-size: small;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 100px;
+  padding: 60px;
+  color: white;
 }
