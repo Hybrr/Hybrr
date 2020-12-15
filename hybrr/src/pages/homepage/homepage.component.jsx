@@ -13,9 +13,10 @@ class HomePage extends React.Component {
     }
 
     render(){
-        return (<div className = 'title'>
+        return ( 
+            <div className = 'title'>
             {this.state.data.map(data => (
-                <h1 key = {data.id}>{data.title}</h1>
+                <h1 key = {data.id}>{data.title}<br></br><div className = 'content'>{data.content}</div></h1>
             ))}
         </div>
         );
