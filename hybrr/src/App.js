@@ -1,9 +1,11 @@
 import React from 'react';
-import { Link, NavLink, Route, Switch, Router, Redirect } from 'react-router-dom';
+
 
 import Service from './component/service/service.component';
 import HomePage from './pages/homepage/homepage.component';
 import Header from './component/header/header.component';
+import AboutUs from './component/aboutus/aboutus.component';
+import Tech from './component/techweaspire/tech.component';
 
 import './App.css';
 
@@ -14,6 +16,8 @@ function App() {
       <div className='Main-Page'>
         <Service />
         <HomePage />
+        <AboutUs />
+        <Tech />
       </div>
     </div>
   );
