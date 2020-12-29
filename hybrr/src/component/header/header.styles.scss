@@ -11,15 +11,33 @@
     padding: 20px;
   }
 
+  .billing {
+    height: 150%;
+    width: 200px;
+    padding: 10px;
+  }
+
+  .billing:hover {
+    transform: scale(1.05);
+  }
+
   .fblogo {
     height: 150%;
     width: 80px;
     padding: 10px;
   }
 
+  .fblogo:hover {
+    transform: scale(1.05);
+  }
+
   .inst {
     height: 150%;
     width: 100px;
     padding: 10px;
+  }
+
+  .inst:hover {
+    transform: scale(1.05);
   }
 }
