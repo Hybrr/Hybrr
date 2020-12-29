@@ -6,6 +6,7 @@ import HomePage from './pages/homepage/homepage.component';
 import Header from './component/header/header.component';
 import AboutUs from './component/aboutus/aboutus.component';
 import Tech from './component/techweaspire/tech.component';
+import MoreHybrr from './component/moreabouthybrr/morehybrr.component';
 
 import './App.css';
 
@@ -17,6 +18,7 @@ function App() {
         <Service />
         <HomePage />
         <AboutUs />
+        <MoreHybrr />
         <Tech />
       </div>
     </div>

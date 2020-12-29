@@ -38,7 +38,7 @@ const HOMEPAGE_DATA = [
     {
         id: 8,
         title: 'Cyber Security',
-        content: "Reduce complexity with integrated innovations.And Don't get hooked by phishers.Cyber security protects the data and integrity of computing assets belonging to or connecting to an organization's network.Its purpose is to defend those assets against all threat actors throughout the entire life cycle of a cyber-attack"
+        content: "Reduce complexity with integrated innovations.And Don't get hooked by phishers.Cyber security protects the data and integrity of computing assets belonging to or connecting to an organization's network.Its purpose is to defend those assets against all threat actors throughout the entire life cycle of a cyber-attack."
     },
     {
         id: 9,
