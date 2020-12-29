@@ -6,6 +6,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
   padding: 20px;
+  text-align: center;
   border: 2px solid gray;
   border-radius: 50px;
   background-color: black;
@@ -13,8 +14,19 @@
 }
 
 .content {
-  font-size: small;
+  text-align: center;
+  font-size: large;
   border: 2px solid #00ff00;
-  border-radius: 10px;
-  color: white;
+  border-style: groove;
+  border-radius: 2px;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+.content:hover {
+  color: #ba01ff;
+  -webkit-animation: none;
+  -moz-animation: none;
+  animation: none;
 }
