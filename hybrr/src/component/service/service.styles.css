@@ -1,6 +1,23 @@
 .service {
-  text-align: center;
   font-family: Roboto;
   font: bold;
+  color: #000;
   font-size: 42px;
+  position: relative;
+  animation: mymove 5s forwards;
+  animation-delay: 2s;
+}
+
+@keyframes mymove {
+  from {
+    left: 0px;
+    /*text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
+      0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;*/
+  }
+  to {
+    left: 640px;
+    /*text-shadow: 0 0 10px #fff, 0 0 20px #ff4da6, 0 0 30px #ff4da6,
+      0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6;*/
+    text-shadow: none;
+  }
 }
