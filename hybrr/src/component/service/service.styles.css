@@ -1,23 +1,26 @@
-.service {
+.text-wrapper {
+  color: white;
+  font-size: 50px;
+  font-size: large;
+  margin: auto;
+  text-align: center;
   font-family: Roboto;
-  font: bold;
-  color: #000;
-  font-size: 42px;
-  position: relative;
-  animation: mymove 5s forwards;
-  animation-delay: 2s;
-}
+  font-weight: bold;
+  text-transform: uppercase;
 
-@keyframes mymove {
-  from {
-    left: 0px;
-    /*text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
-      0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;*/
-  }
+  background: linear-gradient(to right, black 10%, yellow 50%, purple 60%);
+  /*background-size: auto auto;*/
+  /*background-clip: border-box;*/
+  background-size: 130% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2.5s linear infinite;
+}
+@keyframes textclip {
   to {
-    left: 640px;
-    /*text-shadow: 0 0 10px #fff, 0 0 20px #ff4da6, 0 0 30px #ff4da6,
-      0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6;*/
-    text-shadow: none;
+    background-position: 300% center;
   }
 }
