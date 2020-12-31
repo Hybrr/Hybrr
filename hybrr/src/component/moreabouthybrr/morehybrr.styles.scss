@@ -7,6 +7,33 @@
   color: white;
 }
 
+.head1 {
+  color: white;
+  font-size: 42px;
+  margin: auto;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  background: linear-gradient(to right, #095fab 10%, #25abe8 50%, #57d75b 60%);
+  /*background-size: auto auto;*/
+  /*background-clip: border-box;*/
+  background-size: 130% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: header 2.5s linear infinite;
+}
+
+@keyframes header {
+  to {
+    background-position: 500% center;
+  }
+}
+
 .more-content {
   text-align: left;
   font-size: 20px;

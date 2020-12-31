@@ -2,7 +2,33 @@
   text-align: center;
   font-family: Roboto;
   font-size: 42px;
+  padding: 25px;
   text-transform: uppercase;
+}
+
+.heading {
+  font-size: 40px;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  background: linear-gradient(to right, black 10%, yellow 50%, purple 60%);
+  /*background-size: auto auto;*/
+  /*background-clip: border-box;*/
+  background-size: 130% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: title1 2.5s linear infinite;
+}
+
+@keyframes title1 {
+  to {
+    background-position: 600% center;
+  }
 }
 
 .images {
