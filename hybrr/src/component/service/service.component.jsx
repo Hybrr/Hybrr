@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './service.styles.css';
+import './service.styles.scss';
 
 const Service = () => (
     <div className = 'text-wrapper'>
