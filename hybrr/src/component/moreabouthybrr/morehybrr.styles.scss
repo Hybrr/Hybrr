@@ -1,7 +1,7 @@
 .morehybrr {
   font-size: 42px;
   text-align: center;
-  padding: 50px;
+  padding: 10px;
   font-family: Roboto;
   background-color: black;
   color: white;
@@ -10,7 +10,6 @@
 .head1 {
   color: white;
   font-size: 42px;
-  margin: auto;
   text-align: center;
   font-family: Roboto;
   font-weight: bold;
@@ -35,6 +34,17 @@
 }
 
 .more-content {
-  text-align: left;
   font-size: 20px;
+  position: relative;
+  display: inline-block;
+  animation: movingTopToBottom 5s forwards;
+}
+
+@keyframes movingTopToBottom {
+  0% {
+    top: -100px;
+  }
+  100% {
+    top: 0px;
+  }
 }

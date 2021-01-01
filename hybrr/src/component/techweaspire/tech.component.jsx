@@ -14,7 +14,7 @@ import './tech.styles.scss';
 const Tech = () => (
     <div className = 'tech'>
         <h className = 'heading'>Technologies We Aspire For</h>
-        <div className = 'images'>
+        <div className = 'images'>   
         <Android className = 'android'/>
         <Java className = 'java'/>
         <Python className = 'python'/>

@@ -32,48 +32,88 @@
 }
 
 .images {
+  align-items: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 50px;
 }
 
 .android {
   height: 100%;
   width: 300px;
-  padding: 10px;
+  padding-left: 100px;
 }
+
+.android:hover {
+  transform: scale(1.05);
+}
+
 .java {
   height: 100%;
   width: 300px;
-  padding: 10px;
+  padding-left: 50px;
 }
+
+.java:hover {
+  transform: scale(1.05);
+}
+
 .python {
   height: 100%;
   width: 300px;
   padding: 10px;
 }
+
+.python:hover {
+  transform: scale(1.05);
+}
+
 .php {
   height: 100%;
   width: 300px;
-  padding: 10px;
+  padding-left: 100px;
 }
+
+.php:hover {
+  transform: scale(1.05);
+}
+
 .angular {
   height: 100%;
-  width: 300px;
-  padding: 10px;
+  width: 500px;
+  padding-left: 30px;
 }
+
+.angular:hover {
+  transform: scale(1.05);
+}
+
 .django {
   height: 100%;
   width: 300px;
   padding: 10px;
 }
+
+.django:hover {
+  transform: scale(1.05);
+}
+
 .cs {
   height: 100%;
   width: 300px;
-  padding: 10px;
+  padding-left: 100px;
 }
+
+.cs:hover {
+  transform: scale(1.05);
+}
+
 .net {
   height: 100%;
   width: 300px;
-  padding: 10px;
+  padding-left: 50px;
+}
+
+.net:hover {
+  transform: scale(1.05);
 }

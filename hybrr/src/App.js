@@ -19,7 +19,7 @@ import SLIDER_DATA from './data-hybrr/slider.data';
 
 function App() {
   return (
-    <div>
+    <div className='app'>
       <Header />
       <div className='Main-Page'>
         <QuickLook slides={SLIDER_DATA} />
