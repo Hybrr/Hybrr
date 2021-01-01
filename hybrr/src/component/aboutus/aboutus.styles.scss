@@ -27,17 +27,3 @@
     background-position: 400% center;
   }
 }
-
-.data {
-  position: relative;
-  animation: movingTopToBottom 5s forwards;
-}
-
-@keyframes movingTopToBottom {
-  0% {
-    top: -100px;
-  }
-  100% {
-    top: 0px;
-  }
-}

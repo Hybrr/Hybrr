@@ -14,7 +14,7 @@ class MoreHybrr extends React.Component {
 
     render(){
         return ( 
-            <div className = 'morehybrr'>
+            <div className = 'morehybrr' data-aos = "fade-left">
                 <h className = 'head1'>MORE ABOUT HYBRR</h>
             {this.state.data.map(data => (
                 <h1 key = {data.id}><div className = 'more-content'><p>{data.content}</p></div></h1>

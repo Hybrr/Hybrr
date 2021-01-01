@@ -19,15 +19,4 @@
   justify-content: center;
   line-height: 350%;
   font-family: OpenSans;
-  position: relative;
-  animation: movingLeftToRight 5s forwards;
-}
-
-@keyframes movingLeftToRight {
-  0% {
-    left: -100px;
-  }
-  100% {
-    left: 0px;
-  }
 }

@@ -14,7 +14,7 @@ class AboutUs extends React.Component {
 
     render(){
         return(
-            <div className = 'aboutus'>
+            <div className = 'aboutus' data-aos = "fade-right">
                 <h1 className = 'head'>ABOUT US</h1>
                 {this.state.data.map(data=> (
                     <p key = {data.id}><div className = 'data'>{data.content}</div></p>

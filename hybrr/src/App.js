@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter as NavLink, Switch, Route, Router, Link, Redirect } from 'react-router-dom';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import Service from './component/service/service.component';
 import HomePage from './pages/homepage/homepage.component';
@@ -18,6 +19,12 @@ import SLIDER_DATA from './data-hybrr/slider.data';
 
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000
+    });
+    AOS.refresh();
+  });
   return (
     <div className='app'>
       <Header />

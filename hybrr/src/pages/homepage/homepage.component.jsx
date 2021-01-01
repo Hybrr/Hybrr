@@ -1,7 +1,7 @@
 import React from 'react';
 import HOMEPAGE_DATA from '../../data-hybrr/data-hybrr.data.js';
 
-import './homepage.styles.css';
+import './homepage.styles.scss';
 
 class HomePage extends React.Component {
     constructor(props){
@@ -14,13 +14,14 @@ class HomePage extends React.Component {
 
     render(){
         return ( 
-            <div className = 'title'>
-            {this.state.data.map(data => (
+            <div className = 'title' data-aos = "fade-right">
+                {this.state.data.map(data => (
                 <h1 key = {data.id}>{data.title}<div className = 'content'><p>{data.content}</p></div></h1>
             ))}
-        </div>
-        );
-    }
+    
+            </div>
+            );
+        }
 }
 
 export default HomePage;

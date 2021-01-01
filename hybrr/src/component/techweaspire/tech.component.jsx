@@ -12,7 +12,7 @@ import { ReactComponent as Net} from '../../assets/net.svg';
 import './tech.styles.scss';
 
 const Tech = () => (
-    <div className = 'tech'>
+    <div className = 'tech' data-aos="zoom-out">
         <h className = 'heading'>Technologies We Aspire For</h>
         <div className = 'images'>   
         <Android className = 'android'/>
