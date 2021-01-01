@@ -1,5 +1,8 @@
 import React from 'react';
+
 import PRICING_DATA from '../../data-hybrr/pricing.data';
+
+import './pricing.styles.scss';
 
 class Pricing extends React.Component {
     constructor(props){
@@ -11,14 +14,15 @@ class Pricing extends React.Component {
     }
 
     render(){
-        return ( 
-            <div className = 'title'>
-            {this.state.data.map(data => (
-                <h1 key = {data.id}>{data.type}{data.price}<div className = 'content'><p>{data.services}</p></div></h1>
-            ))}
-        </div>
+        return (
+                <div className = 'type'>
+                    {this.state.data.map(data => (
+                    <h1 key = {data.id}>{data.type}<br></br>{data.price}<div className = 'content1'><p >{data.service}{data.period}</p></div></h1>
+                ))}
+                </div>
         );
     }
 }
 
 export default Pricing;
+

@@ -9,8 +9,9 @@ import AboutUs from './component/aboutus/aboutus.component';
 import Tech from './component/techweaspire/tech.component';
 import MoreHybrr from './component/moreabouthybrr/morehybrr.component';
 import Contact from './component/contact/contact.component';
-import Pricing from './pages/pricing/pricing.component';
 import QuickLook from './component/quicklook/quicklook.component';
+import Pricing from './pages/pricing/pricing.component';
+import PriceTitle from './component/pricing-title/pricing-title.component';
 
 import './App.css';
 import SLIDER_DATA from './data-hybrr/slider.data';
@@ -24,6 +25,7 @@ function App() {
         <QuickLook slides={SLIDER_DATA} />
         <Service />
         <HomePage />
+        <PriceTitle />
         <Pricing />
         <AboutUs />
         <MoreHybrr />

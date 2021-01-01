@@ -9,6 +9,7 @@
 }
 
 .head {
+  font-size: 42px;
   background: linear-gradient(to right, #00ff00 10%, #00ffff 50%, #9d00ff 60%);
   /*background-size: auto auto;*/
   /*background-clip: border-box;*/
@@ -23,6 +24,6 @@
 
 @keyframes head {
   to {
-    background-position: 300% center;
+    background-position: 400% center;
   }
 }
