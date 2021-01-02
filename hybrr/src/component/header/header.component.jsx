@@ -1,6 +1,5 @@
 import React from 'react';
 
-import { Link } from 'react-router-dom';
 
 import { ReactComponent as Logo} from '../../assets/logo.svg';
 import { ReactComponent as Fblogo} from '../../assets/fblogo.svg';

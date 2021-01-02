@@ -5,6 +5,24 @@
   background-size: cover;
 }
 
+.connect {
+  text-align: left;
+  padding-left: 200px;
+  font-size: 20px;
+
+  .inst {
+    float: left;
+    height: 100px;
+    width: 100px;
+  }
+
+  .fblogo {
+    height: 100px;
+    flex: 33.33%;
+    width: 80px;
+  }
+}
+
 .contact1 {
   text-transform: uppercase;
   text-align: center;
@@ -12,14 +30,15 @@
 }
 
 .address {
-  font-size: 30px;
+  font-size: 20px;
   text-align: left;
   padding-left: 200px;
+  padding-bottom: 20px;
 }
 
 .email {
   text-align: left;
-  font-size: 30px;
+  font-size: 20px;
   padding-left: 200px;
   padding-bottom: 50px;
 }
@@ -27,5 +46,5 @@
 .rights {
   text-align: center;
   text-transform: uppercase;
-  padding-right: 150px;
+  font-size: 30px;
 }
