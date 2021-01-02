@@ -11,7 +11,6 @@
 }
 
 .business {
-  color: white;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 30px;
 }
@@ -38,19 +37,4 @@
 
 a:link {
   text-decoration: none;
-}
-
-.button {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-
-a {
-  position: relative;
-  display: inline-block;
-  width: 160px;
-  height: 50px;
-  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.863);
 }

@@ -10,7 +10,7 @@ const Contact = () => (
         <div className = 'address' data-aos = "flip-left">
             Address:<br></br>Vadodara,Gujarat 
         </div>
-        <div className = 'email' data-aos = "flip-right">
+        <div className = 'email1' data-aos = "flip-right">
             Have Any Query?
             <a href = "mailto:info@hybrr.nerdsploit.com"><br></br>Mail Us</a>
         </div>
