@@ -16,7 +16,7 @@ const Contact = () => (
         </div>
          <div className = 'connect'>
             Connect With Us On Social Media!   
-        <div className = 'logo'>
+        <div className = 'logo' data-aos="fade-down">
             <a href = "https://www.instagram.com/hybrr_/">
                 <Inst className = 'inst'/>
             </a>

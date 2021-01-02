@@ -10,13 +10,47 @@
   font-family: sans-serif;
 }
 
+.business {
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+
 .content1 {
+  background: black;
   text-align: center;
   box-sizing: border-box;
-  border: 10px solid blue;
+  border-radius: 15px;
+  box-shadow: 0 10px 15px rgba(12, 11, 12, 0.959);
+  transition: 0.5s;
   font-size: 20px;
-  letter-spacing: 0.5px;
+  color: white;
+  letter-spacing: 0.3px;
   justify-content: center;
-  line-height: 350%;
-  font-family: OpenSans;
+  line-height: 250%;
+  font-family: "Poppins", sans-serif;
+}
+
+.mail {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  position: relative;
+  display: inline-block;
+  width: 160px;
+  height: 50px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.863);
 }

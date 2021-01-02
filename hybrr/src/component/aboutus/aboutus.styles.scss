@@ -2,8 +2,10 @@
   text-align: center;
   width: 85vw;
   margin: auto;
-  padding: 25px;
+  padding: 40px;
   font-size: 50px;
+  color: white;
+  background: linear-gradient(235deg, #ff005e, #010165, #fbff00);
   font-size: large;
   font-family: "Roboto";
 }
@@ -26,4 +28,8 @@
   to {
     background-position: 400% center;
   }
+}
+
+.data {
+  font-family: "Poppins", sans-serif;
 }

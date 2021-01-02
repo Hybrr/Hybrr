@@ -16,7 +16,7 @@ class HomePage extends React.Component {
         return ( 
             <div className = 'title' data-aos = "fade-right">
                 {this.state.data.map(data => (
-                <h1 key = {data.id}>{data.title}<div className = 'content'><p>{data.content}</p></div></h1>
+                <h1 key = {data.id}>{data.title}<div className = 'content' data-aos ="flip-up"><p>{data.content}</p></div></h1>
             ))}
     
             </div>

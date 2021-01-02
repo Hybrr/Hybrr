@@ -9,7 +9,7 @@ const PRICING_DATA = [
         ['Server'], <br></br>,
         ['Domain'], <br></br>,
         ['Digital Marketing']],
-        period: 'For 7 days'
+        period: '(For 7 days)'
     },
     {
         id: 2,
@@ -21,7 +21,7 @@ const PRICING_DATA = [
         ['Domain'], <br></br>,
         ['Digital Marketing'], <br></br>,
         ['Static Android Application']],
-        period: 'For 14 days'
+        period: '(For 14 days)'
     },
     {
         id: 3,
@@ -35,7 +35,7 @@ const PRICING_DATA = [
         ['Static Android Application'], <br></br>,
         ['Secure your website'], <br></br>,
         ['AES DES']],
-        period: 'For 25 days'
+        period: '(For 25 days)'
     }
 ];
 
