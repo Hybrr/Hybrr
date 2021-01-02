@@ -14,10 +14,10 @@ class AboutUs extends React.Component {
 
     render(){
         return(
-            <div className = 'aboutus' data-aos = "fade-right">
+            <div className = 'aboutus'>
                 <h1 className = 'head'>ABOUT US</h1>
                 {this.state.data.map(data=> (
-                    <p key = {data.id}><div className = 'data'>{data.content}</div></p>
+                    <p key = {data.id}><div className = 'data' data-aos = "fade-right">{data.content}</div></p>
                 ))}
             </div>
         );

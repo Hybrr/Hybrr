@@ -1,11 +1,31 @@
+.contact {
+  background-image: url(/assets/contact.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 50px;
+}
+
 .address {
-  text-align: left;
   font-size: 30px;
-  padding-left: 50px;
+  text-align: left;
+  padding-left: 200px;
 }
 
 .email {
-  font-size: 20px;
-  padding-left: 50px;
+  text-align: left;
+  font-size: 30px;
+  padding-left: 200px;
   padding-bottom: 50px;
+}
+
+.rights {
+  text-align: center;
+  text-transform: uppercase;
+  padding-right: 150px;
 }
